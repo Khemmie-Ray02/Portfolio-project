@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(1, 1, 22);
+    color: #EFC75E;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+    font-size: 1em;
+}
+
+
+/* ====== Typography ====== */
+
+a {
+    text-decoration: none;
+    margin-right: .5em;
+    font-weight: 600;
+    color: #EFC75E;
+    margin-top: .5em;
+}
+
+nav a:hover, 
+nav a:focus {
+    border-bottom: 2px solid #00FF7F;
+    color:  #00FF7F;
+}
+
+i {
+    color: #00FF7F;
+    font-size: 35px;
+}
+
+.container i:hover, .container i:focus {
+    border-bottom: 2px solid #EFC75E;
+    color:  #EFC75E;
+}
+
+button:hover, button:focus {
+    background-color: #EFC75E;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2, h1 {
+    font-family: 'Playfair Display', serif;
+}
+
+button {
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+.mini {
+    font-size: 1.8rem;
+}
+
+.name, h2 {
+    color:  #00FF7F;
+}
+
+h2 {
+    font-size: 1.7rem;
+    margin-bottom: 0;
+}
+
+.contact-intro {
+    font-size: .8rem;
+}
+
+/* ====== Layout ====== */
+
+header { 
+    text-align: center;
+    margin: 1em 0;
+}
+
+.logo {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.container {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+}
+
+.about img {
+    width: 30%;
+    border-radius: 50%;
+}
+
+button {
+    padding: .8em 1.2em;
+    background-color: #00FF7F;
+    border-radius: 10px;
+    border: 0;
+    color: rgb(1, 1, 22);
+}
+
+.form {
+    width: 60%;
+    margin: 2em auto;
+}
+
+.form input, textarea {
+    width: 100%;
+    display: block;
+    margin-bottom: .5em;
+    padding: .6em;
+}
+
+.projects img {
+    width: 40%;
+    margin-left: 1em;
+}
