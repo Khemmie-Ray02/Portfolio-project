@@ -153,13 +153,18 @@ button {
 
     nav {
         display: none;
+        position: absolute;
+        top: 12%;
+        right: 8%;
+        background-color: black;
+        padding: .8em;
     }
 
     .mobile-btn {
         display: block;
     }
 
-    .mobile-btn:hover nav {
+    .mobile-btn:hover +nav {
         display: block;
     }
 }
